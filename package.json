@@ -1,0 +1,33 @@
+{
+  "name": "tarefas-background-node-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js",
+    "queue": "nodemon src/queue.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigo-Segui/tarefas-background-node-redis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodrigo-Segui/tarefas-background-node-redis/issues"
+  },
+  "homepage": "https://github.com/Rodrigo-Segui/tarefas-background-node-redis#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  },
+  "dependencies": {
+    "bull": "^3.20.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.17",
+    "password-generator": "^2.3.2"
+  }
+}
